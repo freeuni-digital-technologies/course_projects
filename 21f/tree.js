@@ -140,5 +140,6 @@ function getY(i) {
 
 // ამ ფუნქციას ჩვენ გამოვიძახებთ სხვა ფაილიდან საჭირო დროს :)
 function displayMessage() {
-	new Message(0, getY(0) + 100, 'გისურვებ ' + config.message)
+	document.getElementById('message').innerHTML = 'გისურვებ ' + config.message
+	// new Message(0, getY(0) + 100, 'გისურვებ ' + config.message)
 }
