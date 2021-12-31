@@ -12,9 +12,9 @@ function makeChristmasTree() {
 document.body.onkeyup = function(e){
     if(e.keyCode == 32){
        	if (e.shiftKey) {
-       		nextTree()
-       	} else {
        		previousTree()
+       	} else {
+       		nextTree()
        	}
     }
 }
