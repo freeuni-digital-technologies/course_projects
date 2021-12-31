@@ -1,4 +1,9 @@
 #navigation {
-	width: 220px;
+	width: 375;
+	margin:  auto;
+}
+
+#navigation button {
+	width: 170px;
 	margin:  auto;
 }

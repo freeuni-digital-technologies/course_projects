@@ -1,4 +1,4 @@
-var params = { fullscreen: false };
+var params = { fullscreen: false, fitted: true };
 const elem = document.getElementById('christmas-tree')
 /**
  * TODO გაცენტრვა :')
@@ -6,7 +6,8 @@ const elem = document.getElementById('christmas-tree')
  * შიგნითა svg რამდენიცაა იმდენი უნდა იყოს
  */
 elem.style = `
-    width: 640px;
+    width: 350px;
+    height: 500px;
     margin: auto;
 `
 
